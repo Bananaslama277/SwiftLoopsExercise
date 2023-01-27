@@ -4,7 +4,7 @@ func phineasFerb() {
 phineasFerb()
 
 func agentP(perry: String) {
-    print(perry + "Doo-Bee-Doo-Bee-Do-Bah")
+    print(perry + perry + "Do-Bah")
 }
 agentP(perry: "Doo-Bee-")
 
