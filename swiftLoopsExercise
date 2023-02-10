@@ -1,0 +1,36 @@
+let count = [
+1,
+2,
+3,
+4,
+5,
+6,
+7]
+for counted in count {
+    print(counted)
+}
+
+let greetings = [
+"Hello",
+"Hi",
+"What's up"
+]
+
+for greet in greetings {
+    print(greet)
+}
+
+var num1 = 5
+
+while(num1 <= 25) {
+    print(num1)
+    num1 += 1
+}
+
+var num2 = 2
+repeat {
+    print("Hello World")
+    num2 = num2 + 1
+} while (num2 < 2)
+// Function will print "Hello World" once, bool condition is false after first loop
+
