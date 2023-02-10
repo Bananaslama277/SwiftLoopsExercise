@@ -1,13 +1,5 @@
-let count = [
-1,
-2,
-3,
-4,
-5,
-6,
-7]
-for counted in count {
-    print(counted)
+for i in 1...7 {
+    print(i)
 }
 
 let greetings = [
@@ -16,8 +8,8 @@ let greetings = [
 "What's up"
 ]
 
-for greet in greetings {
-    print(greet)
+for i in 0..<greetings.count {
+    print(greetings[i])
 }
 
 var num1 = 5
